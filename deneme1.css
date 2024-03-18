@@ -1,0 +1,78 @@
+.form{
+    width: 370px;
+    height: 500px;
+    background-color: dimgrey;
+    background : url(ressimlerim/ressim2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 350px; 
+    margin-left: 40%;
+    border-radius: 20px;
+    display: inline-block;
+    border: 5px solid;
+    animation: kayan-kenarlik 3s infinite linear;
+    }
+    div form input{
+        padding: 10px;
+        margin-left: 58px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        border: solid;
+        border-radius: 20px;
+        display: inline;
+        background-color: darkgray;
+        width: 250px;
+        opacity: 0.5;
+    }
+    
+    
+    span{
+        margin-top: 20px;
+        margin-left: 135px;
+        font-size: 35px;
+        position: absolute;
+
+
+        text-shadow: 0px 0px 10px lightslategrey,
+        0px 0px 20px lightslategrey,
+        0px 0px 40px lightslategrey,
+        0px 0px 80px lightslategrey,
+        0px 0px 160px lightslategrey;
+        color: lightslategrey;
+font-weight: bold;
+        color: lightslategrey;
+  
+    
+    }
+.u{
+    margin-top: 90px;
+}
+button{
+width: 230px;
+height: 50px;
+font-size: 25px;
+margin-top: 25px;
+margin-left: 70px;
+border-radius: 20px;
+background:linear-gradient(144deg , #af40ff,#5b42f3 50%,#00ddeb);
+}
+
+
+@keyframes kayan-kenarlik {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: orange;
+    }
+    50% {
+        border-color: yellow;
+    }
+    75% {
+        border-color: green;
+    }
+    100% {
+        border-color: blue;
+    }
+}
+
