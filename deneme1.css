@@ -1,16 +1,17 @@
 .form{
     width: 370px;
-    height: 500px;
+    height: 600px;
     background-color: dimgrey;
     background : url(ressimlerim/ressim2.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 350px; 
+    margin-top: 250px; 
     margin-left: 40%;
     border-radius: 20px;
     display: inline-block;
     border: 5px solid;
     animation: kayan-kenarlik 3s infinite linear;
+  
     }
     div form input{
         padding: 10px;
@@ -26,7 +27,7 @@
     }
     
     
-    span{
+    .span{
         margin-top: 20px;
         margin-left: 135px;
         font-size: 35px;
@@ -75,4 +76,31 @@ background:linear-gradient(144deg , #af40ff,#5b42f3 50%,#00ddeb);
         border-color: blue;
     }
 }
+
+.sube{
+    margin-top: 30px;
+    background-color: darkgray;
+    width: 250px;
+    opacity: 0.5;
+    margin-left: 55px;
+}
+.bilgi{
+    background-color: #af40ff;
+    /* width: 400px;
+    height: 400px; */
+    position: absolute;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 300px;
+    /* margin-left: 750px;
+    margin-top: 300px;
+display: none; */
+}
+.j{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
 
