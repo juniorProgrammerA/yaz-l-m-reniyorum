@@ -11,7 +11,6 @@
     display: inline-block;
     border: 5px solid;
     animation: kayan-kenarlik 3s infinite linear;
-  
     }
     div form input{
         padding: 10px;
@@ -34,11 +33,11 @@
         position: absolute;
 
 
-        text-shadow: 0px 0px 10px lightslategrey,
-        0px 0px 20px lightslategrey,
-        0px 0px 40px lightslategrey,
-        0px 0px 80px lightslategrey,
-        0px 0px 160px lightslategrey;
+        text-shadow: 0px 0px 10px black,
+        0px 0px 20px black,
+        0px 0px 40px black,
+        0px 0px 80px black,
+        0px 0px 160px black;
         color: lightslategrey;
 font-weight: bold;
         color: lightslategrey;
@@ -86,12 +85,13 @@ background:linear-gradient(144deg , #af40ff,#5b42f3 50%,#00ddeb);
 }
 .bilgi{
     background-color: #af40ff;
-    /* width: 400px;
-    height: 400px; */
+    width: 400px;
+    height: 100%;
     position: absolute;
     display: inline-block;
-    margin-left: 200px;
-    margin-top: 300px;
+    margin-left: 100px;
+    overflow: auto;
+    /* margin-top: 100px; */
     /* margin-left: 750px;
     margin-top: 300px;
 display: none; */
@@ -101,6 +101,12 @@ display: none; */
     font-size: 30px;
     font-weight: 900;
     text-align: center;
+    list-style-type: none;
+    text-shadow: 0px 0px 10px aqua,
+    0px 0px 20px aqua,
+    0px 0px 40px aqua,
+    0px 0px 80px aqua,
+    0px 0px 160px aqua;
 }
 
 
