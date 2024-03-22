@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let orenciler2 = []
     let liste1 = ""
 
-
+    document.getElementById("deger1").innerHTML="<li>denem</li>";
     document.getElementById("loginButton").addEventListener("click", function () {
 
         let isim = document.getElementById("isimInput").value;
@@ -132,9 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   
               }
           }
-          else{
-              liste1 += `<li class="j">örenci bulunamadı!!!</li>`
-          }
+ 
 
           if (ben2.length !== 0) {
             for (let i = 0; i < ben2.length; i++) {
@@ -148,9 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
             }
         }
-        else{
-            liste1 += `<li class="j">örenci bulunamadı!!!</li>`
-        }
+
 
         if (ben3.length !== 0) {
             for (let i = 0; i < ben3.length; i++) {
@@ -164,9 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
             }
         }
-        else{
-            liste1 += `<li class="j">örenci bulunamadı!!!</li>`
-        }
+
 
         if (ben4.length !== 0) {
             for (let i = 0; i < ben4.length; i++) {
@@ -179,9 +173,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li class="j">---------------</li>`
                 
             }
-        }
-        else{
-            liste1 += `<li class="j">örenci bulunamadı!!!</li>`
         }
 
         if (ben5.length !== 0) {
@@ -196,19 +187,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 
             }
         }
-        else{
-            liste1 += `<li class="j">örenci bulunamadı!!!</li>`
-        }
+
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
-//-------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------  ---------------------------------------------------------------------------------------------------------
+          document.getElementById("deger1").innerHTML =  liste1.length==0?`<li class="j">kayıt yok</li>`:liste1;
 
-          document.getElementById("deger1").innerHTML =  liste1;
-
-
-
-        document.getElementById("deger1").innerHTML =  liste1;
-
+        liste1="";
 
         document.getElementById("isimInput").value = "";
         document.getElementById("soyisimInput").value = "";
