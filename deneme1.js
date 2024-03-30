@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let deneme1 = "";
 
-    deneme1 += `<span class="span">Login</span>
+    deneme1 += `<span class="span">Kayıt Arama</span>
 <form>
     <input id="isimInput" class="u" type="text" placeholder="İsim" >
     <input id="soyisimInput" type="text" placeholder="Soyisim">
@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
   <option value="C">C</option>
 </select>
 <select class="form-select sube" id="subeInputB" aria-label="Default select example">
-<option selected>çinsiyetinizi giriniz</option>
+<option selected>cinsiyetinizi giriniz</option>
 <option value="Erkek">Erkek</option>
 <option value="Kadın">Kadın</option>
 
 </select>
 </form>
-<button id="loginButton" >Login</button>`;
+<button id="loginButton" >Listele</button>`;
     document.getElementById("deneme1").innerHTML = deneme1;
 
     let deneme2 = [
@@ -91,6 +91,8 @@ document.addEventListener("DOMContentLoaded", function () {
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
         for (let i = 0; i < orenciler.length; i++) {
 
             var ben1 =  orenciler.filter(function(aaa){
@@ -132,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   
               }
           }
- 
+
 
           if (ben2.length !== 0) {
             for (let i = 0; i < ben2.length; i++) {
